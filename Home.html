@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management - Categories</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-teal-700 via-teal-800 to-teal-900 text-white py-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <h1 class="text-3xl font-bold">Library Management</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="hover:text-teal-200">Home</a></li>
+                    <li><a href="#" class="hover:text-teal-200">Books</a></li>
+                    <li><a href="#" class="hover:text-teal-200">About</a></li>
+                    <li><a href="#" class="hover:text-teal-200">Contact</a></li>
+                    <li><a href="#" class="hover:text-teal-200">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Category Selection Section -->
+    <section class="py-16 px-6 text-center">
+        <h2 class="text-4xl font-bold text-teal-700 mb-6">Browse Our Book Categories</h2>
+        <div class="max-w-4xl mx-auto">
+            <div class="flex justify-center space-x-8">
+                <button onclick="filterBooks('fiction')" class="bg-teal-700 text-white px-6 py-3 rounded-lg hover:bg-teal-600">Fiction</button>
+                <button onclick="filterBooks('thriller')" class="bg-teal-700 text-white px-6 py-3 rounded-lg hover:bg-teal-600">Thriller</button>
+                <button onclick="filterBooks('literature')" class="bg-teal-700 text-white px-6 py-3 rounded-lg hover:bg-teal-600">Literature</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Collection Section -->
+    <section class="container mx-auto py-12 px-6">
+        <div id="booksContainer" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Sample Book -->
+            <div class="book-card bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300" data-category="fiction">
+                <h4 class="text-xl font-semibold text-teal-700">The Great Adventure</h4>
+                <p class="mt-2 text-gray-600">An exciting tale of heroism and adventure.</p>
+                <div class="mt-4">
+                    <a href="#" class="bg-teal-700 text-white px-4 py-2 rounded-lg hover:bg-teal-600">Read Online</a>
+                    <a href="path/to/book.pdf" class="ml-4 bg-teal-700 text-white px-4 py-2 rounded-lg hover:bg-teal-600" download>Download PDF</a>
+                </div>
+            </div>
+            <div class="book-card bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300" data-category="thriller">
+                <h4 class="text-xl font-semibold text-teal-700">Mysterious Darkness</h4>
+                <p class="mt-2 text-gray-600">A thriller that keeps you at the edge of your seat.</p>
+                <div class="mt-4">
+                    <a href="#" class="bg-teal-700 text-white px-4 py-2 rounded-lg hover:bg-teal-600">Read Online</a>
+                    <a href="path/to/book.pdf" class="ml-4 bg-teal-700 text-white px-4 py-2 rounded-lg hover:bg-teal-600" download>Download PDF</a>
+                </div>
+            </div>
+            <div class="book-card bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300" data-category="literature">
+                <h4 class="text-xl font-semibold text-teal-700">Classic Tales</h4>
+                <p class="mt-2 text-gray-600">Timeless literature from some of the greatest authors.</p>
+                <div class="mt-4">
+                    <a href="#" class="bg-teal-700 text-white px-4 py-2 rounded-lg hover:bg-teal-600">Read Online</a>
+                    <a href="path/to/book.pdf" class="ml-4 bg-teal-700 text-white px-4 py-2 rounded-lg hover:bg-teal-600" download>Download PDF</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-6 text-center">
+        <p>&copy; 2025 Library Management. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to External JS File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
