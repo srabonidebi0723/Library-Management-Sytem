@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management - About Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="antialiased bg-gray-100">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-teal-700 via-teal-800 to-teal-900 text-white py-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <h1 class="text-3xl font-bold">Library Management</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <!-- Navigation Links -->
+                    <li><a href="Home.html" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="books.html" class="hover:text-gray-300">Books</a></li>
+                    <li><a href="about.html" class="hover:text-gray-300">About</a></li>
+                    <li><a href="contact.html" class="hover:text-gray-300">Contact</a></li>
+                    <li><a href="signup.html" class="hover:text-gray-300">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section class="bg-gradient-to-b from-teal-600 to-teal-500 text-white text-center py-28 px-6" data-aos="fade-up">
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-6">Why Choose Library Management System?</h2>
+        <p class="text-lg max-w-2xl mx-auto">A modern solution designed to simplify and improve the way libraries manage their resources and serve their users. With our system, you can experience efficiency, ease, and security in managing library functions.</p>
+    </section>
+
+    <!-- Purpose & Benefits Section -->
+    <section class="container mx-auto py-16 px-6" data-aos="fade-up">
+        <div class="text-center mb-12">
+            <h3 class="text-3xl font-semibold text-teal-700">Our Purpose and Benefits</h3>
+            <p class="text-lg max-w-2xl mx-auto mt-4">Our system is designed to enhance the library experience for both users and administrators, combining cutting-edge technology with simple, intuitive features.</p>
+        </div>
+
+        <!-- Purpose and Benefits Cards with Icons -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Purpose Card -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300" data-aos="flip-left">
+                <div class="text-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-teal-700 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                        <path d="M12 3v18M3 12l9 9 9-9"></path>
+                    </svg>
+                </div>
+                <h4 class="text-xl font-semibold text-teal-700 mb-4">Purpose</h4>
+                <p class="text-gray-600">Our goal is to streamline the library management process, offering a user-friendly system for book tracking, member management, and resource accessibility.</p>
+            </div>
+
+            <!-- Benefit 1 Card -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300" data-aos="flip-left" data-aos-delay="100">
+                <div class="text-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-teal-700 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                        <path d="M3 6h18M3 12h18M3 18h18"></path>
+                    </svg>
+                </div>
+                <h4 class="text-xl font-semibold text-teal-700 mb-4">Efficiency</h4>
+                <p class="text-gray-600">Automates routine tasks like cataloging, inventory tracking, and due dates to save time and reduce human error, improving overall library efficiency.</p>
+            </div>
+
+            <!-- Benefit 2 Card -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300" data-aos="flip-left" data-aos-delay="200">
+                <div class="text-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-teal-700 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                        <path d="M4 12l6 6L20 6"></path>
+                    </svg>
+                </div>
+                <h4 class="text-xl font-semibold text-teal-700 mb-4">User-Friendly</h4>
+                <p class="text-gray-600">Our interface is simple, intuitive, and easy to navigate, making it ideal for both tech-savvy and novice users to browse, borrow, and return books effortlessly.</p>
+            </div>
+
+            <!-- Benefit 3 Card -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300" data-aos="flip-left" data-aos-delay="300">
+                <div class="text-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-teal-700 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                        <path d="M12 8v4h4M12 12v4m-4 0v4m4-4h4"></path>
+                    </svg>
+                </div>
+                <h4 class="text-xl font-semibold text-teal-700 mb-4">Real-Time Updates</h4>
+                <p class="text-gray-600">Receive instant notifications on due dates, available books, new arrivals, and system alerts, keeping you informed about all library activities.</p>
+            </div>
+
+            <!-- Benefit 4 Card -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300" data-aos="flip-left" data-aos-delay="400">
+                <div class="text-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-teal-700 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                        <path d="M4 4h16v16H4z"></path>
+                    </svg>
+                </div>
+                <h4 class="text-xl font-semibold text-teal-700 mb-4">Security</h4>
+                <p class="text-gray-600">With strong encryption and secure authentication, your personal information is protected, and all library data is kept safe.</p>
+            </div>
+
+            <!-- Benefit 5 Card -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300" data-aos="flip-left" data-aos-delay="500">
+                <div class="text-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-teal-700 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                        <path d="M8 9l3 3L16 9"></path>
+                    </svg>
+                </div>
+                <h4 class="text-xl font-semibold text-teal-700 mb-4">Customization</h4>
+                <p class="text-gray-600">Our system can be tailored to suit your library’s unique needs, whether it's for public libraries, university libraries, or corporate libraries.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-6 text-center">
+        <p>&copy; 2025 Library Management. All rights reserved.</p>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+        });
+    </script>
+
+</body>
+</html>
