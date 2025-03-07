@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management - Books</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="antialiased bg-gray-100">
+
+    <!-- Header Section -->
+    <header class="bg-teal-700 text-white py-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <h1 class="text-2xl font-bold">Library Management</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="Home.html" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="books.html" class="hover:text-gray-300">Books</a></li>
+                    <li><a href="about.html" class="hover:text-gray-300">About</a></li>
+                    <li><a href="contact.html" class="hover:text-gray-300">Contact</a></li>
+                    <li><a href="signup.html" class="hover:text-gray-300">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Fiction Category Section -->
+    <section class="container mx-auto py-12 px-6">
+        <h2 class="text-3xl font-bold text-center text-teal-700">Fiction Books</h2>
+        <p class="text-center text-lg text-gray-600">Explore a wide range of fiction books available for online reading or download.</p>
+
+        <!-- Fiction Books Grid -->
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+            <!-- Book 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <h4 class="text-xl font-semibold text-teal-700">The Great Gatsby</h4>
+                <p class="mt-2 text-gray-600">By F. Scott Fitzgerald</p>
+                <div class="mt-4 space-x-4">
+                    <a href="book-pdf/TheGreatGatsby.pdf" download class="bg-teal-700 text-white px-4 py-2 rounded-md hover:bg-teal-800">Download PDF</a>
+                    <a href="book-reader.html?book=TheGreatGatsby" class="bg-teal-700 text-white px-4 py-2 rounded-md hover:bg-teal-800">Read Online</a>
+                </div>
+            </div>
+
+            <!-- Book 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <h4 class="text-xl font-semibold text-teal-700"> The Catcher in the Rye</h4>
+                <p class="mt-2 text-gray-600">By Novel by J. D. Salinger</p>
+                <div class="mt-4 space-x-4">
+                    <a href="https://giove.isti.cnr.it/demo/eread/Libri/sad/Rye.pdf" download class="bg-teal-700 text-white px-4 py-2 rounded-md hover:bg-teal-800">Download PDF</a>
+                    <a href="https://openlibrary.org/works/OL3335245W/The_Catcher_in_the_Rye?edition=key%3A/books/OL47773871M" class="bg-teal-700 text-white px-4 py-2 rounded-md hover:bg-teal-800">Read Online</a>
+                </div>
+            </div>
+
+            <!-- Book 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <h4 class="text-xl font-semibold text-teal-700">Pride and Prejudice</h4>
+                <p class="mt-2 text-gray-600">By Jane Austen</p>
+                <div class="mt-4 space-x-4">
+                    <a href="https://giove.isti.cnr.it/demo/eread/Libri/joy/Pride.pdf" download class="bg-teal-700 text-white px-4 py-2 rounded-md hover:bg-teal-800">Download PDF</a>
+                    <a href="https://openlibrary.org/" class="bg-teal-700 text-white px-4 py-2 rounded-md hover:bg-teal-800">Read Online</a>
+                </div>
+            </div>
+
+            <!--Book 4-->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <h4 class="text-xl font-semibold text-teal-700">দেবদাস</h4>
+                <p class="mt-2 text-gray-600">By শরৎচন্দ্র চট্টোপাধ্যায়</p>
+                <div class="mt-4 space-x-4">
+                    <a href="https://file-chittagong.portal.gov.bd/uploads/62614507-3cc4-4dd6-a57a-756638b69e05//649/91d/f8e/64991df8ed962023106199.pdf" download class="bg-teal-700 text-white px-4 py-2 rounded-md hover:bg-teal-800">Download PDF</a>
+                    <a href="https://bengaliebook.com/devdas/" class="bg-teal-700 text-white px-4 py-2 rounded-md hover:bg-teal-800">Read Online</a>
+                </div>
+            </div>
+
+            <!--Book 5-->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <h4 class="text-xl font-semibold text-teal-700">ফেলুদা সমগ্র</h4>
+                <p class="mt-2 text-gray-600">By Jane Austen</p>
+                <div class="mt-4 space-x-4">
+                    <a href="https://www.amarbooks.org/pdfurl/Satyajit%20Ray/Feluda%20Somogro-2.pdf" download class="bg-teal-700 text-white px-4 py-2 rounded-md hover:bg-teal-800">Download PDF</a>
+                    <a href="https://www.goodreads.com/book/show/16076375" class="bg-teal-700 text-white px-4 py-2 rounded-md hover:bg-teal-800">Read Online</a>
+                </div>
+            </div>
+            <!--Book 6-->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <h4 class="text-xl font-semibold text-teal-700">অরণ্যের দিনরাত্রি</h4>
+                <p class="mt-2 text-gray-600">By সুনীল গঙ্গোপাধ্যায়</p>
+                <div class="mt-4 space-x-4">
+                    <a href="https://bengaliebook.com/wp-content/uploads/2021/12/%E0%A6%85%E0%A6%B0%E0%A6%A3%E0%A7%8D%E0%A6%AF%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BF.pdf" download class="bg-teal-700 text-white px-4 py-2 rounded-md hover:bg-teal-800">Download PDF</a>
+                    <a href="https://www.goodreads.com/book/show/17203961" class="bg-teal-700 text-white px-4 py-2 rounded-md hover:bg-teal-800">Read Online</a>
+                </div>
+            </div>
+
+            <!-- Add more books as needed -->
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-6 text-center">
+        <p>&copy; 2025 Library Management. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
